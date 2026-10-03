@@ -31,11 +31,7 @@ Constraints:
 Search SHUNYA.
 ```
 
-Possible matches:
-
-- [Deterministic Decision Boundary](../patterns/ai/deterministic-decision-boundary.md)
-- [Constrained Tool Selection](../patterns/ai/constrained-tool-selection.md)
-- [Validate Before Execute](../patterns/ai/validate-before-execute.md)
+At first, the useful result may be only the closest problem family and its cases. Return a pattern only when SHUNYA has published case evidence for it.
 
 ## Important principle
 

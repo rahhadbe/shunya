@@ -14,10 +14,6 @@ Use this family when a request, workflow, build, query, or system takes longer t
 2. Is the bottleneck CPU, I/O, network, contention, queuing, or an external dependency?
 3. Does the average hide a tail-latency or concurrency problem?
 
-## Related patterns
-
-- [Reduce Lock Duration](../../patterns/concurrency/reduce-lock-duration.md)
-
 ## Cases
 
 Add a real incident or investigation under `cases/` using the [case template](../../templates/case.md). Link it here with a one-line lesson.

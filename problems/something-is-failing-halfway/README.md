@@ -14,10 +14,6 @@ Use this family when a multi-step operation stops after some effects have alread
 2. What should a retry, rollback, or compensating action do from the current state?
 3. Can each step be identified and repeated safely?
 
-## Related patterns
-
-- [Idempotent Retry](../../patterns/concurrency/idempotent-retry.md)
-
 ## Cases
 
 Add a real incident or investigation under `cases/` using the [case template](../../templates/case.md). Link it here with a one-line lesson.

@@ -14,10 +14,6 @@ Use this family when an AI-produced answer, classification, or inference is inco
 2. Is the failure in retrieval, interpretation, instruction, or evaluation?
 3. Which parts of the outcome require deterministic rules rather than inference?
 
-## Related patterns
-
-- [Deterministic Decision Boundary](../../patterns/ai/deterministic-decision-boundary.md)
-
 ## Cases
 
 Add a real incident or investigation under `cases/` using the [case template](../../templates/case.md). Link it here with a one-line lesson.

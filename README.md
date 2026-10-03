@@ -30,8 +30,6 @@ case
 
 Do not start by proposing a pattern, guide, or framework. Start with the case. Maintainers can promote proven learning into the other forms.
 
-Early patterns may be published as **seed patterns** when they are clearly labeled as unproven and invite supporting cases. They are prompts for investigation, not established advice.
-
 ## Where things live
 
 ```text
@@ -42,6 +40,7 @@ problems/
       <case-name>.md       # A real engineering experience
 
 patterns/
+  README.md                # Published only after cases support the pattern
   <pattern-name>.md        # A reusable idea, linked to supporting cases
 
 guides/

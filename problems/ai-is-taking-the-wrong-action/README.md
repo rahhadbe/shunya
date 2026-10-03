@@ -14,11 +14,6 @@ Use this family when an AI system selects, authorizes, or executes an action tha
 2. Was the error in interpretation, tool selection, validation, or execution?
 3. Which actions need deterministic checks or human confirmation?
 
-## Related patterns
-
-- [Constrained Tool Selection](../../patterns/ai/constrained-tool-selection.md)
-- [Validate Before Execute](../../patterns/ai/validate-before-execute.md)
-
 ## Cases
 
 Add a real incident or investigation under `cases/` using the [case template](../../templates/case.md). Link it here with a one-line lesson.

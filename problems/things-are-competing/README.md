@@ -15,13 +15,9 @@ Use this family when multiple operations need the same limited resource and prog
 2. Who acquires it, in what order, and for how long?
 3. Is contention broad, or concentrated around a hot resource?
 
-## Candidate patterns
-
-- [Reduce Lock Duration](../../patterns/concurrency/reduce-lock-duration.md)
-
 ## Cases
 
-Add a real incident or investigation under `cases/` using the [case template](../../templates/case.md). Link it here with a one-line lesson.
+Add a real incident or investigation under `cases/` using the [case template](../../templates/case.md). Link it here with a one-line lesson. A pattern can be promoted later when multiple cases support it.
 
 ## Related families
 
