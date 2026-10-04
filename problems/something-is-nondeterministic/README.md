@@ -16,4 +16,8 @@ Use this family when the same input, state, or workflow can produce different ou
 
 ## Cases
 
-Add a real incident or investigation under `cases/` using the [case template](../../templates/case.md). Link it here with a one-line lesson.
+- [Eligibility translation drifted at runtime](cases/llm-eligibility-drift.md) - serve verified answers from a lookup; call the model only for unseen inputs.
+
+## Related patterns
+
+- [The Crystallization Pattern](../../patterns/crystallization-pattern.md)

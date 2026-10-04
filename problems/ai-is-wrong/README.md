@@ -16,4 +16,4 @@ Use this family when an AI-produced answer, classification, or inference is inco
 
 ## Cases
 
-Add a real incident or investigation under `cases/` using the [case template](../../templates/case.md). Link it here with a one-line lesson.
+- [Eligibility translation drifted at runtime](../something-is-nondeterministic/cases/llm-eligibility-drift.md) - known inputs re-derived by a model drift; freeze verified answers instead.
