@@ -8,4 +8,4 @@ Use [templates/pattern.md](../templates/pattern.md) when the evidence is ready.
 
 ## Published patterns
 
-- [The Crystallization Pattern](crystallization-pattern.md) - serve verified answers from a lookup; use a probabilistic solver only for unseen inputs.
+- [The Crystallization Pattern](crystallization-pattern/crystallization-pattern.md) ([diagrams](crystallization-pattern/diagrams.md)) - serve verified answers from a lookup; use a probabilistic solver only for unseen inputs

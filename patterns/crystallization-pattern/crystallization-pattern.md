@@ -163,15 +163,17 @@ This example is illustrative; the case under [Evidence](#evidence) is the real a
 
 ## Evidence
 
-- [Eligibility translation drifted at runtime — froze verified LLM outputs into a lookup](../problems/something-is-nondeterministic/cases/llm-eligibility-drift.md)
-  — an LLM translator plateaued near 97% on a known set; a verified statement → expression
-  map with LLM fallback made verified inputs deterministic, with latency and model cost
-  falling as traffic recurred.
+- [Same input, different LLM answer — froze verified outputs into a lookup](../../problems/something-is-nondeterministic/cases/llm-output-drift-on-repeated-inputs.md)
+  — an LLM converting free text to structured output gave different answers for inputs it
+  had already solved and plateaued near 97% on a known set; a verified input → output map
+  with LLM fallback made verified inputs deterministic, with latency and model cost falling
+  as traffic recurred.
 
 Currently supported by one case. Independent cases from other contexts (for example ticket
 classification, request routing, or tool selection) would strengthen it.
 
 ## Related
 
-- [Something Is Nondeterministic](../problems/something-is-nondeterministic/README.md)
-- [AI Is Wrong](../problems/ai-is-wrong/README.md)
+- [Diagrams](diagrams.md) — architecture, request sequence, design decisions, comparison
+- [Something Is Nondeterministic](../../problems/something-is-nondeterministic/README.md)
+- [AI Is Wrong](../../problems/ai-is-wrong/README.md)

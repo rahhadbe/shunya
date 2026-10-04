@@ -16,8 +16,10 @@ Use this family when the same input, state, or workflow can produce different ou
 
 ## Cases
 
-- [Eligibility translation drifted at runtime](cases/llm-eligibility-drift.md) - serve verified answers from a lookup; call the model only for unseen inputs.
+Add a real incident or investigation under `cases/` using the [case template](../../templates/case.md). Link it here with a one-line lesson.
+
+- [Same input, different LLM answer](cases/llm-output-drift-on-repeated-inputs.md) - serve verified answers from a lookup; call the model only for unseen inputs
 
 ## Related patterns
 
-- [The Crystallization Pattern](../../patterns/crystallization-pattern.md)
+- [The Crystallization Pattern](../../patterns/crystallization-pattern/crystallization-pattern.md)
