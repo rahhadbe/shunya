@@ -16,4 +16,4 @@ Use this family when an AI-produced answer, classification, or inference is inco
 
 ## Cases
 
-Add a real incident or investigation under `cases/` using the [case template](../../templates/case.md). Link it here with a one-line lesson.
+- [A text reader that corrects typos cannot verify exact text](cases/text-reader-that-corrects-typos-cannot-verify-text.md) - a reader biased toward real words cannot pass exact text; require two independent readers to agree before failing, and mark disagreement as unverified.
