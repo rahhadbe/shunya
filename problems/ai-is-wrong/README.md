@@ -16,4 +16,10 @@ Use this family when an AI-produced answer, classification, or inference is inco
 
 ## Cases
 
-- [A text reader that corrects typos cannot verify exact text](cases/text-reader-that-corrects-typos-cannot-verify-text.md) - a reader biased toward real words cannot pass exact text; require two independent readers to agree before failing, and mark disagreement as unverified.
+- [The text checker fixed the typos it was supposed to catch](cases/text-checker-hides-typos.md) - a checker that autocorrects cannot verify exact text; fail only when independent checkers agree, and treat disagreement as "unverified", never as a pass.
+
+Add a real incident or investigation under `cases/` using the [case template](../../templates/case.md). Link it here with a one-line lesson.
+
+## Related patterns
+
+- [Independent Checker Agreement](../../patterns/independent-checker-agreement.md)
