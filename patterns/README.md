@@ -5,3 +5,7 @@ Patterns are promoted from real cases when the same solution idea has worked acr
 Until then, the case is the source of truth. Do not add a pattern to describe an idea that has not yet been supported by published cases.
 
 Use [templates/pattern.md](../templates/pattern.md) when the evidence is ready.
+
+## Published patterns
+
+- [Independent Checker Agreement](independent-checker-agreement.md) - fail only when independent checkers agree; a checker biased toward approval can veto but never pass on its own.
