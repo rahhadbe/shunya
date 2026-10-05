@@ -61,7 +61,7 @@ Read the text with every reader (spelling correction off)
 
 - Every bad-text image in the test set was caught: 15 of 15, including all 11 planted text failures.
 - False alarms fell from 5 (vision model alone) to 4.
-- All 4 remaining false alarms were images whose human label was later disputed. When those were set aside, the checker agreed with the human on every remaining image.
+- All 4 remaining false alarms were images whose human label was later disputed. In 3 of them, the image model had drawn a "/" from the prompt into the ad ("Only / AED 49"). In the fourth, it had drawn a stray quote mark. The checker failed these images and the human passed them, so the checker was arguably right. When those 4 were set aside, the checker agreed with the human on every remaining image.
 - The goal of no more than 15% false alarms among flagged images was **not met**: as labelled, 4 of 19 flagged images were false alarms, which is 21%.
 
 ## Trade-offs and limits
