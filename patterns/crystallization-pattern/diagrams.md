@@ -2,6 +2,9 @@
 
 Visual companion to [The Crystallization Pattern](crystallization-pattern.md).
 
+These diagrams use Mermaid. Install a Mermaid plugin in your editor or Markdown viewer to
+render them; otherwise, you can read the Mermaid source in the code blocks below.
+
 | #   | Diagram                                                           | Answers                                                  |
 | --- | ----------------------------------------------------------------- | -------------------------------------------------------- |
 | 1   | [Architecture and control flow](#1-architecture-and-control-flow) | How does a request move through the system?              |
